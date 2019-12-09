@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<title>Контакты и реквизиты «ДЮВР-электро»</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="all" href="s/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="s/style.css" />
+	<script type="text/javascript" src="j/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="j/jquery.color.js"></script>
+	<script type="text/javascript" src="j/jquery.decor.js"></script>
+	<script type="text/javascript" src="j/submitform.js"></script>
+	<style type="text/css">.hidden {display: none;}</style>
+</head>
+<body id="inner-page">
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter10739176 = new Ya.Metrika({id:10739176, enableAll: true});
+        }
+        catch(e) { }
+    });
+})(window, "yandex_metrika_callbacks");
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/10739176" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<div id="layout">
+	<div id="page">
+		<div id="main">
+			<div id="header">
+				<table>
+					<tr>
+						<td class="td-logo">
+							<h1 id="logo">
+								<a href="index.html"><img src="i/duvr-logo.png" alt="DUVR-electro" width="291" height="75" border="0" /></a>
+							</h1>
+						</td>
+						<td class="td-spacer"></td>
+						<td class="td-navigation">
+							<div id="navigation">
+								<ul>
+									<li><a href="inner-company.html">О&nbsp;компании</a></li>
+									<li><a href="inner-docs.html">Лицензии и&nbsp;сертификаты</a></li>
+									<li><a href="inner-projects.html">Наши проекты</a></li>
+									<li><a href="inner-reviews.html">Отзывы</a></li>
+									<li class="selected"><strong class="selected">Контакты и&nbsp;реквизиты</strong></li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="content">
+				<h2 id="page-title">Контакты и&nbsp;реквизиты</h2>
+				<div id="body" class="theme theme_contacts"><i class="theme-pic"></i><div class="reducer">
+					<div id="contacts">
+						<ul>
+							<li>ООО &laquo;ДЮВР-ЭЛЕКТРО&raquo;</li>
+						
+							<li><strong>Адрес:</strong> 220112, г. Минск, ул. Шпилевского&nbsp;60, оф.&nbsp;11&thinsp;н</li>
+							<li><strong>Тел.:</strong> +375 17 <nobr class="phone">377-37-27</nobr></li>
+							<li><strong>Факс:</strong> +375 17 <nobr class="phone">377-37-26</nobr></li>
+							<li><strong>Электронная почта:</strong> <a href="mailto:info@duvr.by">pto@duvr.by</a></li>
+								<li><strong>Проектная электронная почта:</strong> <a href="mailto:info@duvr.by">gip@duvr.by</a></li>
+							<li><strong>Сайт:</strong> <a href="http://www.duvr.by/">www.duvr.by</a></li>
+							
+						</ul>
+
+
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту  (начало) -->
+<script src="http://api-maps.yandex.ru/1.1/?key=AAJ6uE4BAAAAhvQ3TgIBOW_OquunrAE_V4Kbqpustgz8voIAAAAAAAAAAABnW11czAdX4kN86aHwjq0K_M1tgw==&modules=pmap&wizard=constructor" type="text/javascript"></script>
+<script type="text/javascript">
+    YMaps.jQuery(window).load(function () {
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID-3828")[0]);
+        map.setCenter(new YMaps.GeoPoint(27.559431,53.848228), 15, YMaps.MapType.MAP);
+        map.addControl(new YMaps.Zoom());
+        map.addControl(new YMaps.ToolBar());
+        YMaps.MapType.PMAP.getName = function () { return "Народная"; };
+        map.addControl(new YMaps.TypeControl([
+            YMaps.MapType.MAP,
+            YMaps.MapType.SATELLITE,
+            YMaps.MapType.HYBRID,
+            YMaps.MapType.PMAP
+        ], [0, 1, 2, 3]));
+
+        YMaps.Styles.add("constructor#pmblmPlacemark", {
+            iconStyle : {
+                href : "http://api-maps.yandex.ru/i/0.3/placemarks/pmblm.png",
+                size : new YMaps.Point(28,29),
+                offset: new YMaps.Point(-8,-27)
+            }
+        });
+
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(27.559817,53.846502), "constructor#pmblmPlacemark", "ул. Шпилеского 60, оф 11н"));
+        
+        function createObject (type, point, style, description) {
+            var allowObjects = ["Placemark", "Polyline", "Polygon"],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || "";
+            
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+            
+            return object;
+        }
+    });
+</script>
+
+<div id="YMapsID-3828" style="width:532px;height:450px"></div>
+<div style="width:532px;text-align:right;font-family:Arial"></div>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+
+<br>
+
+						<div class="note">
+							<div><strong>Осн. р/с:</strong>  BY&thinsp;24MTBK&thinsp;301&thinsp;2000&nbsp;1093&nbsp;3000&nbsp;63465
+							в ЗАО &laquo;Минский транзитный банк&raquo;, г. Минск, пр-т. Партизанский, 6А, код 117</div>
+							<div><strong>Доп. р/с:</strong>BY&thinsp;81&thinsp;UNB&thinsp;3012&nbsp;0077&thinsp;5700&thinsp;3000&thinsp;3933&thinsp;BYN   в РКЦ №&nbsp;3&nbsp;ЗАО «БелСвиссБанк», г. Минск, ул. Тимирязева, 65, код 175</div>
+						<div><strong>УНП</strong> 191&thinsp;089&thinsp;336</div>
+						<div><strong>ОКПО</strong> 378&thinsp;327&thinsp;415&thinsp;000</div>
+							</div>
+							
+						<p><strong>Директор:</strong> Виталий Валерьевич Янович (<i>действующий на основании Устава</i>)</p>
+						<div id="message-ok"></div>
+						<form id="feedback" action="" method="post">
+							<div class="form"><i class="tl"></i><i class="tr"></i><i class="br"></i><i class="bl"></i>
+								<h3><span>Форма обратной связи</span></h3>
+								<fieldset class="form-in" id="form-in">
+									<div class="fields">
+										<dl class="field cleared">
+											<dt>Ваше имя</dt>
+											<dd><input type="text" name="name" id="name" /></dd>
+										</dl>
+										<dl class="field cleared">
+											<dt>Электропочта</dt>
+											<dd><input type="text" name="email" id="email" value="" class="text_email" /></dd>
+										</dl>
+										<dl class="field cleared">
+											<dt>Телефон</dt>
+											<dd><input type="text" name="phone" id="phone" value="" /></dd>
+										</dl>
+										<dl class="field cleared">
+											<dt>Сообщение</dt>
+											<dd><textarea name="message" id="message" cols="25" rows="5"></textarea></dd>
+										</dl>
+									</div>
+								</fieldset>
+								<fieldset class="form-bottom">
+									<input type="submit" id="submit" value="Отправить" class="btn-send" />
+								</fieldset>
+							</div>
+						</form>
+					</div>
+				</div></div>
+			</div>
+		</div>
+	</div>
+	<div id="footer"><div>
+		<div class="copy">&copy;&nbsp;2008—2019 &laquo;Дювр-электро&raquo;</div>
+		<i></i>
+	</div></div>
+</div>
+</body>
+</html>
